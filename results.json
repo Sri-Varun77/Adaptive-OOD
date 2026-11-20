@@ -1,0 +1,36 @@
+[
+  {
+    "model": "resnet18",
+    "id_class_count": 10,
+    "id_test_images": 986,
+    "ood_test_images": 900,
+    "threshold": 0.7557222247123718,
+    "test_auroc": 0.9827524228082039,
+    "test_accuracy": 0.9384941675503712,
+    "id_acceptance_rate": 0.9442190669371197,
+    "ood_rejection_rate": 0.9322222222222222,
+    "original_classifier_accuracy_on_id_test": 0.9584178328514099,
+    "ood_training_classes": 139,
+    "ood_validation_classes": 30,
+    "ood_test_classes": 30,
+    "label_rule": "1 if ground-truth synset is one of the ten Imagenette output classes; otherwise 0",
+    "elapsed_seconds": 4047.96
+  },
+  {
+    "model": "mobilenet_v3_small",
+    "id_class_count": 10,
+    "id_test_images": 986,
+    "ood_test_images": 900,
+    "threshold": 0.6700940132141113,
+    "test_auroc": 0.9417748478701825,
+    "test_accuracy": 0.8663838812301167,
+    "id_acceptance_rate": 0.8549695740365112,
+    "ood_rejection_rate": 0.8788888888888889,
+    "original_classifier_accuracy_on_id_test": 0.9472616910934448,
+    "ood_training_classes": 139,
+    "ood_validation_classes": 30,
+    "ood_test_classes": 30,
+    "label_rule": "1 if ground-truth synset is one of the ten Imagenette output classes; otherwise 0",
+    "elapsed_seconds": 922.94
+  }
+]

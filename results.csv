@@ -1,0 +1,3 @@
+model,id_class_count,id_test_images,ood_test_images,threshold,test_auroc,test_accuracy,id_acceptance_rate,ood_rejection_rate,original_classifier_accuracy_on_id_test,ood_training_classes,ood_validation_classes,ood_test_classes,label_rule,elapsed_seconds
+resnet18,10,986,900,0.7557222247123718,0.9827524228082039,0.9384941675503712,0.9442190669371197,0.9322222222222222,0.9584178328514099,139,30,30,1 if ground-truth synset is one of the ten Imagenette output classes; otherwise 0,4047.96
+mobilenet_v3_small,10,986,900,0.6700940132141113,0.9417748478701825,0.8663838812301167,0.8549695740365112,0.8788888888888889,0.9472616910934448,139,30,30,1 if ground-truth synset is one of the ten Imagenette output classes; otherwise 0,922.94
